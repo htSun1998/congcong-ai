@@ -81,6 +81,11 @@ async def congcong_dataset(request: DatasetRequest):
     return data_list
 
 
+@app.get("/test")
+async def test():
+    return "success"
+
+
 if __name__ == "__main__":
     # 日志
     logger.add("logs/{time:YYYY-MM-DD}.log",
