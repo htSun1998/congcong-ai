@@ -1,0 +1,736 @@
+INFO:     Started server process [2221462]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:3100 (Press CTRL+C to quit)
+2024-05-14 08:51:41.400 | DEBUG    | app:congcong_chat:33 - 18118999573
+2024-05-14 08:51:41.401 | DEBUG    | app:congcong_chat:45 - content: itv影视包可以观看的内容有哪些
+INFO:     49.65.123.177:58726 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:08:58.759 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:08:58.760 | DEBUG    | app:congcong_chat:45 - content: 无法关闭防骚扰
+INFO:     49.65.123.177:60050 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:09:21.733 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:09:21.733 | DEBUG    | app:congcong_chat:45 - content: 没领到权益
+INFO:     49.65.123.177:60162 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:09:29.504 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 09:09:29.505 | DEBUG    | app:congcong_chat:45 - content: 你了解巴以冲突么
+INFO:     49.65.123.177:60166 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:10:05.718 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:10:05.718 | DEBUG    | app:congcong_chat:45 - content: 番茄小说
+INFO:     49.65.123.177:60376 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:10:17.391 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:10:17.392 | DEBUG    | app:congcong_chat:45 - content: itv怎么退
+INFO:     49.65.123.177:60392 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:10:41.649 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:10:41.649 | DEBUG    | app:congcong_chat:45 - content: 我不想要自己不需要的权益
+INFO:     49.65.123.177:60434 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:11:02.084 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:11:02.085 | DEBUG    | app:congcong_chat:45 - content: 想投屏怎么弄
+INFO:     49.65.123.177:60456 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:13:08.888 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:13:08.888 | DEBUG    | app:congcong_chat:45 - content: 如何咨询客服
+INFO:     49.65.123.177:60604 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:13:35.906 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:13:35.906 | DEBUG    | app:congcong_chat:45 - content: 如何取消刚订购的视频彩铃
+INFO:     49.65.123.177:60638 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:13:48.937 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:13:48.937 | DEBUG    | app:congcong_chat:45 - content: 如何咨询客服？
+INFO:     49.65.123.177:60650 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:14:28.960 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:14:28.961 | DEBUG    | app:congcong_chat:45 - content: 投诉电话
+INFO:     49.65.123.177:60850 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:16:31.353 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:16:31.353 | DEBUG    | app:congcong_chat:45 - content: 苏果券未到账啊
+INFO:     49.65.123.177:33018 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:17:37.849 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:17:37.849 | DEBUG    | app:congcong_chat:45 - content: 希望可以增加退款通道
+INFO:     49.65.123.177:33122 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:18:48.352 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:18:48.352 | DEBUG    | app:congcong_chat:45 - content: 会员随心选怎么订购
+INFO:     49.65.123.177:33192 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:20:59.635 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:20:59.635 | DEBUG    | app:congcong_chat:45 - content: 114自助移车服务到底有没有用
+INFO:     49.65.123.177:33510 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:21:07.628 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:21:07.628 | DEBUG    | app:congcong_chat:45 - content: 会员随心选怎么退订
+INFO:     49.65.123.177:33516 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:22:55.763 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:22:55.763 | DEBUG    | app:congcong_chat:45 - content: 为什么没有兑换提醒
+INFO:     49.65.123.177:33662 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:23:10.187 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:23:10.188 | DEBUG    | app:congcong_chat:45 - content: 权益兑换为什么没有提醒
+INFO:     49.65.123.177:33682 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:23:19.834 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:23:19.834 | DEBUG    | app:congcong_chat:45 - content: 移动手机号可以订购会员随心选嘛
+INFO:     49.65.123.177:33698 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:24:01.471 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:24:01.472 | DEBUG    | app:congcong_chat:45 - content: 必须要用电信手机号注册才能使用天翼云盘嘛
+INFO:     49.65.123.177:33854 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:24:42.922 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:24:42.922 | DEBUG    | app:congcong_chat:45 - content: 建议权益兑换增加提醒
+INFO:     49.65.123.177:33926 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:25:38.523 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:25:38.523 | DEBUG    | app:congcong_chat:45 - content: 蜜雪冰城如何兑换使用
+INFO:     49.65.123.177:34050 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:26:04.736 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:26:04.736 | DEBUG    | app:congcong_chat:45 - content: 领了蜜雪冰城权益未到账
+INFO:     49.65.123.177:34078 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:27:10.216 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:27:10.217 | DEBUG    | app:congcong_chat:45 - content: 会员随心选领取了优酷会员，未到账
+INFO:     49.65.123.177:34330 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:29:01.339 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:29:01.340 | DEBUG    | app:congcong_chat:45 - content: 会员随心选茶颜悦色代金券怎么兑换使用
+INFO:     49.65.123.177:34808 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:29:57.608 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:29:57.608 | DEBUG    | app:congcong_chat:45 - content: 来伊份联合会员
+INFO:     49.65.123.177:34954 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:30:29.191 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:30:29.191 | DEBUG    | app:congcong_chat:45 - content: 麦当劳权益包
+INFO:     49.65.123.177:34992 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:30:46.615 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:30:46.615 | DEBUG    | app:congcong_chat:45 - content: 瑞幸咖啡权益
+INFO:     49.65.123.177:35010 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:31:29.185 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:31:29.186 | DEBUG    | app:congcong_chat:45 - content: 天翼高清的电视会员多少钱一个月
+INFO:     49.65.123.177:35202 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:31:45.235 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:31:45.235 | DEBUG    | app:congcong_chat:45 - content: 赠送好友视频会员没收到短信
+INFO:     49.65.123.177:35224 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:32:20.181 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:32:20.182 | DEBUG    | app:congcong_chat:45 - content: itv怎么投屏
+INFO:     49.65.123.177:35270 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:32:52.847 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:32:52.847 | DEBUG    | app:congcong_chat:45 - content: 我要退订怎么操作
+INFO:     49.65.123.177:35306 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:33:05.779 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:33:05.779 | DEBUG    | app:congcong_chat:45 - content: itv投屏失败怎么办
+INFO:     49.65.123.177:35326 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:33:42.392 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:33:42.393 | DEBUG    | app:congcong_chat:45 - content: itv天天签到活动怎么提现
+INFO:     49.65.123.177:35416 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:34:48.500 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:34:48.500 | DEBUG    | app:congcong_chat:45 - content: 领取itv电视7天体验包后电视上内容可以全部免费观看嘛
+INFO:     49.65.123.177:35482 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:35:06.877 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:35:06.877 | DEBUG    | app:congcong_chat:45 - content: 0元领券的15元天猫超市卡没到账
+INFO:     49.65.123.177:35500 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:35:26.117 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:35:26.118 | DEBUG    | app:congcong_chat:45 - content: itv怎么退订
+INFO:     49.65.123.177:35518 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:36:39.083 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:36:39.083 | DEBUG    | app:congcong_chat:45 - content: 打开itv投屏，绑定不了itv怎么回事
+INFO:     49.65.123.177:35720 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:38:32.638 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:38:32.639 | DEBUG    | app:congcong_chat:45 - content: 怎么手机投屏没有用呀
+INFO:     49.65.123.177:35918 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:39:09.808 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:39:09.809 | DEBUG    | app:congcong_chat:45 - content: 没有领取会员显示我领取了
+INFO:     49.65.123.177:35998 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:39:15.096 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:39:15.097 | DEBUG    | app:congcong_chat:45 - content: 为什么没法投屏
+INFO:     49.65.123.177:36000 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:40:45.716 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:40:45.717 | DEBUG    | app:congcong_chat:45 - content: 说绑定账号超过12个微信号但是没有绑过啊
+INFO:     49.65.123.177:36204 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:43:34.085 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:43:34.085 | DEBUG    | app:congcong_chat:45 - content: 想要咪咕视频会员
+INFO:     49.65.123.177:36596 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:44:07.064 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:44:07.065 | DEBUG    | app:congcong_chat:45 - content: itv投屏里面的遥控器不能用了是怎么回事
+INFO:     49.65.123.177:36636 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:44:25.174 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:44:25.175 | DEBUG    | app:congcong_chat:45 - content: 建议添加搜狐视频vip
+INFO:     49.65.123.177:36670 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:45:21.401 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:45:21.401 | DEBUG    | app:congcong_chat:45 - content: itv
+INFO:     49.65.123.177:36762 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:45:35.991 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:45:35.992 | DEBUG    | app:congcong_chat:45 - content: 建议添加搜狐视频vip
+INFO:     49.65.123.177:36792 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:47:10.780 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:47:10.780 | DEBUG    | app:congcong_chat:45 - content: itv电视投屏不了，显示账号被绑定，但是那个账号不是我们家人的
+INFO:     49.65.123.177:37178 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:48:41.514 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:48:41.514 | DEBUG    | app:congcong_chat:45 - content: 如何绑定机顶盒
+INFO:     49.65.123.177:37406 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:49:35.951 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:49:35.952 | DEBUG    | app:congcong_chat:45 - content: 电视上哪些可以看到我的订购信息啊
+INFO:     49.65.123.177:37516 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:52:08.141 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:52:08.142 | DEBUG    | app:congcong_chat:45 - content: 绑定不了机顶盒是什么情况
+INFO:     49.65.123.177:37746 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:52:39.897 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:52:39.898 | DEBUG    | app:congcong_chat:45 - content: 绑定不了机顶盒是什么情况
+INFO:     49.65.123.177:37802 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:54:21.833 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 09:54:21.834 | DEBUG    | app:congcong_chat:45 - content: 领取的视频会员用不了
+INFO:     49.65.123.177:38032 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:55:43.874 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:55:43.875 | DEBUG    | app:congcong_chat:45 - content: itv投屏只能投屏小程序上的内容吗
+INFO:     49.65.123.177:38142 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:57:37.162 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:57:37.162 | DEBUG    | app:congcong_chat:45 - content: 绑定机顶盒更新后还是买不了优品电视包
+INFO:     49.65.123.177:38356 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:59:43.141 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:59:43.142 | DEBUG    | app:congcong_chat:45 - content: 如何收藏
+INFO:     49.65.123.177:38528 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 09:59:59.061 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 09:59:59.061 | DEBUG    | app:congcong_chat:45 - content: 如何查询消费/订购记录？
+INFO:     49.65.123.177:38540 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:00:09.451 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 10:00:09.451 | DEBUG    | app:congcong_chat:45 - content: 如何取消订购
+INFO:     49.65.123.177:38558 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:00:36.200 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 10:00:36.201 | DEBUG    | app:congcong_chat:45 - content: 如何点播节目？
+INFO:     49.65.123.177:38608 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:02:08.363 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 10:02:08.363 | DEBUG    | app:congcong_chat:45 - content: 我原本是黄金会员，能在天翼云盘APP订购黄金会员嘛
+INFO:     49.65.123.177:38960 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:03:10.991 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 10:03:10.991 | DEBUG    | app:congcong_chat:45 - content: 我可以在哪里订购天翼云盘黄金会员，铂金会员和学习助手会员
+INFO:     49.65.123.177:39134 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:04:49.848 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 10:04:49.849 | DEBUG    | app:congcong_chat:45 - content: 天翼云盘里面的做任务领福利怎么参加
+INFO:     49.65.123.177:39268 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:06:40.892 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 10:06:40.893 | DEBUG    | app:congcong_chat:45 - content: 家庭共享怎么操作呢
+INFO:     49.65.123.177:39424 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:07:00.101 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 10:07:00.102 | DEBUG    | app:congcong_chat:45 - content: 天翼云盘家庭共享怎么操作呢
+INFO:     49.65.123.177:39448 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:07:42.522 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 10:07:42.523 | DEBUG    | app:congcong_chat:45 - content: 天翼云盘有哪些功能
+INFO:     49.65.123.177:39668 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:08:21.558 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 10:08:21.559 | DEBUG    | app:congcong_chat:45 - content: 天翼云盘在哪里退订
+INFO:     49.65.123.177:39714 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:09:34.097 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 10:09:34.097 | DEBUG    | app:congcong_chat:45 - content: 天翼云盘到期后空间变小，系统会自动删除用户储存在云盘的文件吗
+INFO:     49.65.123.177:39878 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:13:47.603 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 10:13:47.604 | DEBUG    | app:congcong_chat:37 - audio: 8d0e695a-863d-47cb-b78e-e4fd77359b8f.mp3
+2024-05-14 10:13:48.229 | DEBUG    | app:congcong_chat:45 - content: 字幕君也谢谢观看
+INFO:     49.65.123.177:40276 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:14:09.172 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 10:14:09.172 | DEBUG    | app:congcong_chat:37 - audio: 5512eb71-de46-49da-9870-f33645b26d97.mp3
+2024-05-14 10:14:10.347 | DEBUG    | app:congcong_chat:45 - content: 字幕君 请搜寻 搜寻 搜寻 搜寻
+INFO:     49.65.123.177:40350 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:14:35.439 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 10:14:35.440 | DEBUG    | app:congcong_chat:37 - audio: ddcf63e6-c4f5-4729-9ce9-d772a363563e.mp3
+2024-05-14 10:14:36.086 | DEBUG    | app:congcong_chat:45 - content: 字幕君也谢谢观看
+INFO:     49.65.123.177:40370 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:19:17.403 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:19:17.403 | DEBUG    | app:congcong_chat:37 - audio: 9bc99737-f62a-46f6-8bfc-bc562e1a1994.mp3
+2024-05-14 10:19:19.273 | DEBUG    | app:congcong_chat:45 - content: 天翼云盘会员到期后空间变小,系统会自动删除用户储存在云盘的文件吗?
+INFO:     49.65.123.177:41180 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:20:53.423 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:20:53.423 | DEBUG    | app:congcong_chat:37 - audio: 6607e78e-910c-4174-9777-9b1533278539.mp3
+2024-05-14 10:20:55.324 | DEBUG    | app:congcong_chat:45 - content: 天翼云盘会员到期后空间变小,系统会自动删除用户存储在云盘的文件码。
+INFO:     49.65.123.177:41398 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:21:47.743 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:21:47.744 | DEBUG    | app:congcong_chat:37 - audio: 6c62069e-fc8e-433f-8881-d5865ba4a28f.mp3
+2024-05-14 10:21:49.594 | DEBUG    | app:congcong_chat:45 - content: 天翼云盘会员到期后空间变小,系统会自动删除用户存储在云盘的文件吗?
+INFO:     49.65.123.177:41574 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:23:33.855 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:23:33.856 | DEBUG    | app:congcong_chat:37 - audio: 1cef2146-c158-48ba-b75b-6d4002778372.mp3
+2024-05-14 10:23:35.371 | DEBUG    | app:congcong_chat:45 - content: 天翼云盘普通用户黄金会员博金会员有什么特权区别
+INFO:     49.65.123.177:47558 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:24:16.142 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:24:16.143 | DEBUG    | app:congcong_chat:37 - audio: fa1f7bec-08eb-46cf-9d9b-00708b29cfe7.mp3
+2024-05-14 10:24:17.638 | DEBUG    | app:congcong_chat:45 - content: 千亿云盘普通用户黄金会员,博金会员有什么特有钱区别?
+INFO:     49.65.123.177:60138 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:24:55.186 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:24:55.186 | DEBUG    | app:congcong_chat:37 - audio: 5308b6ee-d74a-47fb-bc95-981f791795c2.mp3
+2024-05-14 10:24:55.720 | DEBUG    | app:congcong_chat:45 - content: 迁移
+INFO:     49.65.123.177:58216 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:25:10.370 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:25:10.370 | DEBUG    | app:congcong_chat:37 - audio: acbc15f7-3b42-4987-b4ad-bdba5c35fb7c.mp3
+2024-05-14 10:25:11.815 | DEBUG    | app:congcong_chat:45 - content: 天翼云盘普通用户黄金会员博金会员有什么特权区别
+INFO:     49.65.123.177:44056 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:27:54.475 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:27:54.475 | DEBUG    | app:congcong_chat:37 - audio: 954cd66b-e690-4f84-99f9-f879166e1188.mp3
+2024-05-14 10:27:56.088 | DEBUG    | app:congcong_chat:45 - content: 天翼手机号码注销前,如何把天翼云盘的数据转移到新的号码上
+INFO:     49.65.123.177:44320 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:28:25.145 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:28:25.146 | DEBUG    | app:congcong_chat:37 - audio: 6c78cd9c-dab7-4d0b-894e-3c0d6ae49f4d.mp3
+2024-05-14 10:28:26.774 | DEBUG    | app:congcong_chat:45 - content: 天翼手机号码注销前,如何把天翼云盘数据转移到新的号码上?
+INFO:     49.65.123.177:44416 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:28:54.731 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:28:54.732 | DEBUG    | app:congcong_chat:37 - audio: 205cf922-ba49-46ce-84f5-e7501f7e7e2b.mp3
+2024-05-14 10:28:56.016 | DEBUG    | app:congcong_chat:45 - content: 必须要用电信手机号注册才能使用千亿云盘吗?
+INFO:     49.65.123.177:44452 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:35:12.732 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:35:12.732 | DEBUG    | app:congcong_chat:37 - audio: f8349c69-9856-4d36-90ec-b738c953ca84.mp3
+2024-05-14 10:35:14.171 | DEBUG    | app:congcong_chat:45 - content: 随心选一个月20块钱,但是兑换的价值才十几块钱,这是怎么回事?
+INFO:     49.65.123.177:35924 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:36:01.204 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:36:01.204 | DEBUG    | app:congcong_chat:45 - content: 随心选一个月20元，但兑换的权益不到20元
+INFO:     49.65.123.177:52868 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:38:10.314 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:38:10.315 | DEBUG    | app:congcong_chat:45 - content: 领取了权益但没到账
+INFO:     49.65.123.177:44212 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:40:58.405 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:40:58.406 | DEBUG    | app:congcong_chat:45 - content: 视频会员权益为什么收费
+INFO:     49.65.123.177:44552 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:48:53.493 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:48:53.494 | DEBUG    | app:congcong_chat:45 - content: 为什么兑换了会员不能用
+INFO:     49.65.123.177:45356 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:51:36.538 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:51:36.539 | DEBUG    | app:congcong_chat:45 - content: 为什么兑换了会员不能用
+INFO:     49.65.123.177:45934 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:52:29.524 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:52:29.525 | DEBUG    | app:congcong_chat:45 - content: 为啥我买的是季卡却收到月卡
+INFO:     49.65.123.177:46004 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:57:25.812 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:57:25.813 | DEBUG    | app:congcong_chat:45 - content: 为啥我买的是季卡却收到月卡
+INFO:     49.65.123.177:46444 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:58:15.828 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:58:15.829 | DEBUG    | app:congcong_chat:45 - content: 我花积分买的vip一直都不到账
+INFO:     49.65.123.177:46494 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:59:29.669 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:59:29.669 | DEBUG    | app:congcong_chat:45 - content: 微信立减金怎么用
+INFO:     49.65.123.177:47560 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 10:59:48.062 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 10:59:48.062 | DEBUG    | app:congcong_chat:45 - content: 随心用立减金怎么用
+INFO:     49.65.123.177:42688 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 11:00:01.574 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 11:00:01.575 | DEBUG    | app:congcong_chat:37 - audio: 41fa91e7-6d90-4930-86e9-63ee41617929.mp3
+2024-05-14 11:00:02.345 | DEBUG    | app:congcong_chat:45 - content: 随心应用利剪机怎么使用
+INFO:     49.65.123.177:51464 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 11:09:35.140 | DEBUG    | app:congcong_chat:33 - 18093128015
+2024-05-14 11:09:35.141 | DEBUG    | app:congcong_chat:37 - audio: 8f14c4f1-b645-4f92-ad9a-2ee05a4c4d6e.mp3
+2024-05-14 11:09:35.635 | DEBUG    | app:congcong_chat:45 - content: 我讲的
+INFO:     49.65.123.177:52582 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 11:09:50.809 | DEBUG    | app:congcong_chat:33 - 18093128015
+2024-05-14 11:09:50.810 | DEBUG    | app:congcong_chat:37 - audio: 19df5161-9761-44c7-aa81-d129ca1a4328.mp3
+2024-05-14 11:09:51.447 | DEBUG    | app:congcong_chat:45 - content: 谢谢观看,下次见!
+INFO:     49.65.123.177:52640 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 11:10:01.318 | DEBUG    | app:congcong_chat:33 - 18093128015
+2024-05-14 11:10:01.319 | DEBUG    | app:congcong_chat:37 - audio: 34da642b-b3b2-447b-aa42-76ff28e3cd6d.mp3
+2024-05-14 11:10:01.788 | DEBUG    | app:congcong_chat:45 - content: 谢谢大家
+INFO:     49.65.123.177:52650 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 11:10:17.652 | DEBUG    | app:congcong_chat:33 - 18093128015
+2024-05-14 11:10:17.653 | DEBUG    | app:congcong_chat:37 - audio: 08d056b4-74f3-4808-9beb-b7a0bf1d9eeb.mp3
+2024-05-14 11:10:18.079 | DEBUG    | app:congcong_chat:45 - content: 谢谢
+INFO:     49.65.123.177:52700 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 11:10:25.311 | DEBUG    | app:congcong_chat:33 - 18093128015
+2024-05-14 11:10:25.311 | DEBUG    | app:congcong_chat:37 - audio: 482e3549-0253-4580-a6a1-d3ca2fbe1fd6.mp3
+2024-05-14 11:10:25.809 | DEBUG    | app:congcong_chat:45 - content: 我看你
+INFO:     49.65.123.177:52718 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 11:10:51.138 | DEBUG    | app:congcong_chat:33 - 18093128015
+2024-05-14 11:10:51.138 | DEBUG    | app:congcong_chat:37 - audio: 80f97b99-85cf-4698-ad57-0816e2ace385.mp3
+2024-05-14 11:10:51.782 | DEBUG    | app:congcong_chat:45 - content: 看一直在录
+INFO:     49.65.123.177:52860 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 11:12:15.872 | DEBUG    | app:congcong_chat:33 - 15380914941
+2024-05-14 11:12:15.873 | DEBUG    | app:congcong_chat:45 - content: 领取了会员权益为什么没有到账
+INFO:     49.65.123.177:53076 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 11:15:01.270 | DEBUG    | app:congcong_chat:33 - 17327761793
+2024-05-14 11:15:01.271 | DEBUG    | app:congcong_chat:45 - content: 会员没有充值，不可用呢
+INFO:     49.65.123.177:48968 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 15:04:38.236 | DEBUG    | app:congcong_chat:33 - 17854205326
+2024-05-14 15:04:38.237 | DEBUG    | app:congcong_chat:45 - content: 1
+INFO:     49.65.123.177:59394 - "POST /congcong/chat HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/http/client.py", line 1395, in getresponse
+    response.begin()
+  File "/data/anaconda3/envs/congcong/lib/python3.11/http/client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/http/client.py", line 286, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/util/retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/http/client.py", line 1395, in getresponse
+    response.begin()
+  File "/data/anaconda3/envs/congcong/lib/python3.11/http/client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/http/client.py", line 286, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/projects/congcong-ai/app.py", line 52, in congcong_chat
+    response = fastgpt.chat(chat_id, stream, content)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/projects/congcong-ai/model/fastgpt.py", line 12, in chat
+    response = requests.post(url=self.chat_url, json=request, headers=self.headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-05-14 15:05:17.289 | DEBUG    | app:congcong_chat:33 - 17854205326
+2024-05-14 15:05:17.289 | DEBUG    | app:congcong_chat:45 - content: 11
+INFO:     49.65.123.177:59580 - "POST /congcong/chat HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/connection.py", line 400, in request
+    self.endheaders()
+  File "/data/anaconda3/envs/congcong/lib/python3.11/http/client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/http/client.py", line 1058, in _send_output
+    self.send(msg)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/http/client.py", line 996, in send
+    self.connect()
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f7338d91cd0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='36.103.239.194', port=3000): Max retries exceeded with url: /api/v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7338d91cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/projects/congcong-ai/app.py", line 52, in congcong_chat
+    response = fastgpt.chat(chat_id, stream, content)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/projects/congcong-ai/model/fastgpt.py", line 12, in chat
+    response = requests.post(url=self.chat_url, json=request, headers=self.headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/anaconda3/envs/congcong/lib/python3.11/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='36.103.239.194', port=3000): Max retries exceeded with url: /api/v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7338d91cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-05-14 15:05:37.786 | DEBUG    | app:congcong_chat:33 - 17854205326
+2024-05-14 15:05:37.786 | DEBUG    | app:congcong_chat:45 - content: 111
+INFO:     49.65.123.177:59616 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 15:06:32.549 | DEBUG    | app:congcong_chat:33 - 17854205326
+2024-05-14 15:06:32.549 | DEBUG    | app:congcong_chat:45 - content: 免费领取
+INFO:     49.65.123.177:59758 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 15:06:50.081 | DEBUG    | app:congcong_chat:33 - 17854205326
+2024-05-14 15:06:50.082 | DEBUG    | app:congcong_chat:45 - content: 我可以免费领取什么
+INFO:     49.65.123.177:59782 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 15:54:10.382 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 15:54:10.383 | DEBUG    | app:congcong_chat:45 - content: 呼叫
+INFO:     49.65.123.177:36564 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 15:54:24.308 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 15:54:24.309 | DEBUG    | app:congcong_chat:45 - content: 我有哪些会员
+INFO:     49.65.123.177:36580 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 15:54:39.103 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 15:54:39.103 | DEBUG    | app:congcong_chat:45 - content: 积分商城
+INFO:     49.65.123.177:36592 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 15:55:22.343 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 15:55:22.344 | DEBUG    | app:congcong_chat:45 - content: 积分商城
+INFO:     49.65.123.177:36746 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 15:56:51.661 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 15:56:51.662 | DEBUG    | app:congcong_chat:45 - content: 积分商城
+INFO:     49.65.123.177:36910 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 15:57:38.481 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 15:57:38.481 | DEBUG    | app:congcong_chat:45 - content: iTV电视怎么订购
+INFO:     49.65.123.177:36990 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 15:59:11.640 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 15:59:11.641 | DEBUG    | app:congcong_chat:45 - content: 最新上映了哪些电影
+INFO:     49.65.123.177:37092 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 15:59:20.687 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 15:59:20.687 | DEBUG    | app:congcong_chat:45 - content: 114电影
+INFO:     49.65.123.177:37096 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:00:05.421 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:00:05.422 | DEBUG    | app:congcong_chat:45 - content: 视频彩铃
+INFO:     49.65.123.177:37154 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:02:09.402 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:02:09.403 | DEBUG    | app:congcong_chat:45 - content: 安全管家
+INFO:     49.65.123.177:37318 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:03:41.662 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:03:41.662 | DEBUG    | app:congcong_chat:45 - content: 本地权益
+INFO:     49.65.123.177:37460 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:03:51.919 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:03:51.919 | DEBUG    | app:congcong_chat:45 - content: 随心用
+INFO:     49.65.123.177:37476 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:03:58.486 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:03:58.487 | DEBUG    | app:congcong_chat:45 - content: 随心用立减金是什么？
+INFO:     49.65.123.177:37480 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:04:11.843 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:04:11.844 | DEBUG    | app:congcong_chat:45 - content: 从哪里订购会员随心选业务
+INFO:     49.65.123.177:37580 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:04:28.145 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:04:28.146 | DEBUG    | app:congcong_chat:45 - content: 随心用立减金是什么？
+INFO:     49.65.123.177:37640 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:04:52.322 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:04:52.322 | DEBUG    | app:congcong_chat:45 - content: 党费交纳
+INFO:     49.65.123.177:37738 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:05:01.745 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:05:01.745 | DEBUG    | app:congcong_chat:45 - content: 话费充值
+INFO:     49.65.123.177:37754 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:05:37.792 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:05:37.793 | DEBUG    | app:congcong_chat:45 - content: 生活缴费
+INFO:     49.65.123.177:37812 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:05:58.008 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:05:58.009 | DEBUG    | app:congcong_chat:45 - content: 咖啡权益
+INFO:     49.65.123.177:37850 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:06:20.999 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:06:20.999 | DEBUG    | app:congcong_chat:45 - content: 腾讯视频
+INFO:     49.65.123.177:37924 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:06:48.893 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:06:48.893 | DEBUG    | app:congcong_chat:45 - content: 天猫超市卡去哪里领取
+INFO:     49.65.123.177:38002 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:07:28.006 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:07:28.007 | DEBUG    | app:congcong_chat:45 - content: 天猫超市卡
+INFO:     49.65.123.177:38104 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:07:34.980 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:07:34.980 | DEBUG    | app:congcong_chat:45 - content: 天猫超市卡领取失败的原因？
+INFO:     49.65.123.177:38148 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:08:06.927 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:08:06.927 | DEBUG    | app:congcong_chat:45 - content: 天翼防骚扰拦截了多少电话
+INFO:     49.65.123.177:38272 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:08:38.885 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:08:38.885 | DEBUG    | app:congcong_chat:45 - content: 抽奖
+INFO:     49.65.123.177:38336 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:08:53.355 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:08:53.356 | DEBUG    | app:congcong_chat:45 - content: 抽奖次数是否可以累积到第二天？
+INFO:     49.65.123.177:38378 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:09:00.330 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:09:00.330 | DEBUG    | app:congcong_chat:45 - content: 抽奖
+INFO:     49.65.123.177:38400 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:09:09.953 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:09:09.953 | DEBUG    | app:congcong_chat:45 - content: 刮刮乐
+INFO:     49.65.123.177:38414 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:09:14.874 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:09:14.875 | DEBUG    | app:congcong_chat:45 - content: 福利社
+INFO:     49.65.123.177:38420 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:09:20.908 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:09:20.908 | DEBUG    | app:congcong_chat:45 - content: 如何在福利社订购权益得特权
+INFO:     49.65.123.177:38426 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 16:09:42.116 | DEBUG    | app:congcong_chat:33 - 18100621845
+2024-05-14 16:09:42.116 | DEBUG    | app:congcong_chat:45 - content: 我的订单
+INFO:     49.65.123.177:38494 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-14 18:01:05.030 | DEBUG    | app:congcong_chat:33 - 13813977204
+2024-05-14 18:01:05.030 | DEBUG    | app:congcong_chat:37 - audio: 279a9fe3-52fa-4112-b5cd-453dbf3a992b.mp3
+2024-05-14 18:01:05.695 | DEBUG    | app:congcong_chat:45 - content: 有点太厚了
+INFO:     49.65.123.177:48506 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-15 09:08:03.933 | DEBUG    | app:congcong_chat:33 - 13261394996
+2024-05-15 09:08:03.934 | DEBUG    | app:congcong_chat:45 - content: 你好
+INFO:     49.65.123.177:41264 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-15 09:08:11.862 | DEBUG    | app:congcong_chat:33 - 13261394996
+2024-05-15 09:08:11.863 | DEBUG    | app:congcong_chat:45 - content: 123
+INFO:     49.65.123.177:41310 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-15 09:08:16.666 | DEBUG    | app:congcong_chat:33 - 13261394996
+2024-05-15 09:08:16.666 | DEBUG    | app:congcong_chat:45 - content: 123
+INFO:     49.65.123.177:41330 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-15 09:08:24.292 | DEBUG    | app:congcong_chat:33 - 13261394996
+2024-05-15 09:08:24.293 | DEBUG    | app:congcong_chat:45 - content: 123
+INFO:     49.65.123.177:41374 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-15 09:08:32.305 | DEBUG    | app:congcong_chat:33 - 13261394996
+2024-05-15 09:08:32.306 | DEBUG    | app:congcong_chat:45 - content: 123
+INFO:     49.65.123.177:41408 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-15 09:09:11.767 | DEBUG    | app:congcong_chat:33 - 13261394996
+2024-05-15 09:09:11.767 | DEBUG    | app:congcong_chat:45 - content: 怎么使用AI数字人名片
+INFO:     49.65.123.177:41632 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-15 14:14:09.161 | DEBUG    | app:congcong_chat:33 - 17361907018
+2024-05-15 14:14:09.161 | DEBUG    | app:congcong_chat:35 - file: 9e6a2e0c-4079-4c1a-943e-70bca6638ca4.jpg
+2024-05-15 14:14:09.162 | DEBUG    | app:congcong_chat:45 - content: 11
+INFO:     49.65.123.177:58018 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-15 14:18:30.505 | DEBUG    | app:congcong_chat:33 - 17361907018
+2024-05-15 14:18:30.506 | DEBUG    | app:congcong_chat:35 - file: 22741399-f330-4327-9075-559ea7df42e5.jpg
+2024-05-15 14:18:30.506 | DEBUG    | app:congcong_chat:45 - content: 111
+INFO:     49.65.123.177:59576 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-15 14:18:59.147 | DEBUG    | app:congcong_chat:33 - 17361907018
+2024-05-15 14:18:59.147 | DEBUG    | app:congcong_chat:45 - content: 11
+INFO:     49.65.123.177:59746 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-15 14:21:09.631 | DEBUG    | app:congcong_chat:33 - 17361907018
+2024-05-15 14:21:09.632 | DEBUG    | app:congcong_chat:35 - file: 16234415-42c0-4e58-9199-b40d6b579f91.jpg
+2024-05-15 14:21:09.632 | DEBUG    | app:congcong_chat:45 - content: 121212
+INFO:     49.65.123.177:60524 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-15 14:21:13.596 | DEBUG    | app:congcong_chat:33 - 17361907018
+2024-05-15 14:21:13.597 | DEBUG    | app:congcong_chat:35 - file: 16234415-42c0-4e58-9199-b40d6b579f91.jpg
+2024-05-15 14:21:13.597 | DEBUG    | app:congcong_chat:45 - content: 121212
+INFO:     49.65.123.177:60536 - "POST /congcong/chat HTTP/1.1" 200 OK
+INFO:     125.75.69.37:51192 - "POST /congcong/dataset HTTP/1.1" 200 OK
+2024-05-15 15:50:51.569 | DEBUG    | app:congcong_chat:33 - 17854205326
+2024-05-15 15:50:51.569 | DEBUG    | app:congcong_chat:45 - content: 免费领取
+INFO:     125.75.69.37:46084 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-15 17:31:40.976 | DEBUG    | app:congcong_chat:33 - 17361907018
+2024-05-15 17:31:40.977 | DEBUG    | app:congcong_chat:35 - file: 16234415-42c0-4e58-9199-b40d6b579f91.jpg
+2024-05-15 17:31:40.978 | DEBUG    | app:congcong_chat:45 - content: 121212
+INFO:     49.65.123.177:42036 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-15 18:41:51.112 | DEBUG    | app:congcong_chat:33 - 17854205326
+2024-05-15 18:41:51.113 | DEBUG    | app:congcong_chat:45 - content: 免费领取
+INFO:     125.75.69.37:51402 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-16 09:42:08.775 | DEBUG    | app:congcong_chat:33 - 17854205326
+2024-05-16 09:42:08.776 | DEBUG    | app:congcong_chat:45 - content: 为什么没法投屏
+INFO:     49.65.123.177:47856 - "POST /congcong/chat HTTP/1.1" 200 OK
+2024-05-16 10:10:20.983 | DEBUG    | app:congcong_chat:33 - 17854205326
+2024-05-16 10:10:20.984 | DEBUG    | app:congcong_chat:45 - content: 为什么没法投屏
+INFO:     49.65.123.177:57220 - "POST /congcong/chat HTTP/1.1" 200 OK
