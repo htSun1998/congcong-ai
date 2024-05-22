@@ -1,8 +1,14 @@
 import uvicorn
-from fastapi import FastAPI, Form, UploadFile, File, HTTPException
+from fastapi import Depends, FastAPI, Form, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from loguru import logger
 from sse_starlette.sse import EventSourceResponse
+from concurrent.futures import ThreadPoolExecutor
+import time
+import redis.asyncio as redis
+from fastapi_limiter.depends import RateLimiter
+from fastapi_limiter import FastAPILimiter
+from contextlib import asynccontextmanager
 
 from model.fastgpt import FastGPT
 from model.kimi import KIMI
@@ -11,7 +17,15 @@ from model.censor import Censor
 from common.message import DatasetRequest
 
 
-app = FastAPI()
+executor = ThreadPoolExecutor(max_workers=200)
+
+@asynccontextmanager  # 启动时运行
+async def lifespan(app: FastAPI):
+    redis_connection = redis.from_url("redis://125.75.69.37:6379", encoding="utf-8", decode_responses=True)
+    await FastAPILimiter.init(redis_connection)
+    yield
+
+app = FastAPI(lifespan=lifespan)
 app.add_middleware(CORSMiddleware,
                    allow_origins=["*"],
                    allow_credentials=True,
@@ -24,18 +38,14 @@ whisper = Whisper()
 censor = Censor()
 
 
-@app.post("/congcong/chat")
-async def congcong_chat(chat_id: str = Form(...),
-                        stream: bool = Form(True),
-                        content: str = Form(None),
-                        file: UploadFile = File(None),
-                        audio: UploadFile = File(None)):
+def execute(chat_id, stream, content, file, audio):
     logger.info(f"{chat_id}")
+    logger.debug(f"{time.asctime()}")
 
     ##### 内容审核 #####
     # 语音审核
     if audio is not None:
-        if not await censor.censor_audio(audio):
+        if not censor.censor_audio(audio):
             return HTTPException(status_code=400, detail="语音审核不通过")
         asr_result = whisper.asr(audio)
         if asr_result["status"] == 200:
@@ -72,6 +82,16 @@ async def congcong_chat(chat_id: str = Form(...),
         return response.json()
 
 
+@app.post("/congcong/chat", dependencies=[Depends(RateLimiter(times=200, seconds=1))])
+def congcong_chat(chat_id: str = Form(...),
+                        stream: bool = Form(True),
+                        content: str = Form(None),
+                        file: UploadFile = File(None),
+                        audio: UploadFile = File(None)):
+    future = executor.submit(execute, chat_id, stream, content, file, audio)
+    return future.result()
+
+
 @app.post("/congcong/dataset")
 async def congcong_dataset(request: DatasetRequest):
     response = fastgpt.dataset(request)
@@ -79,11 +99,6 @@ async def congcong_dataset(request: DatasetRequest):
     for data in response.json()["data"]["data"]:
         data_list.append(data["q"])
     return data_list
-
-
-@app.get("/test")
-async def test():
-    return "success"
 
 
 if __name__ == "__main__":
@@ -95,5 +110,4 @@ if __name__ == "__main__":
     # 启动
     uvicorn.run(app='app:app',
                 host="0.0.0.0",
-                port=3100,
-                workers=1)
+                port=3100)

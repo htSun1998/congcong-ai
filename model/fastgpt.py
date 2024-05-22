@@ -5,7 +5,7 @@ class FastGPT:
     def __init__(self) -> None:
         self.chat_url = "http://125.75.69.37:9600/api/v1/chat/completions"
         self.dataset_url = "http://125.75.69.37:9600/api/core/dataset/data/list"
-        self.headers = {"Authorization": "Bearer " + "fastgpt-hBK2LavFW4ccYF2V1amhxrTxLRRclbDri5V2yxUQIvfxravX47tfJ7U"}
+        self.headers = {"Authorization": "Bearer " + "fastgpt-Cxayg7aymCzHxSViOk39ILfW2dTmwQSzSEB60rXoulCvesriG6meHcSNnr3cBl8e"}
 
     def chat(self, chat_id, stream, content):
         request = self.parse_chat_request(chat_id, stream, content)

@@ -2,10 +2,10 @@ import base64
 from fastapi import UploadFile
 
 
-async def convert_uploadfile_to_base64(file: UploadFile) -> str:
+def convert_uploadfile_to_base64(file: UploadFile) -> str:
     # 读取文件的内容
     file.file.seek(0)
-    file_content = await file.read()
+    file_content = file.file.read()
     # 编码为Base64字符串
     encoded_content = base64.b64encode(file_content)
     # 将bytes类型转为str，以得到Base64编码的字符串

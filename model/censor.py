@@ -14,10 +14,10 @@ class Censor:
         response = requests.post(url=self.text_censor_url, json=request)
         return response.json()
     
-    async def censor_audio(self, audio):
+    def censor_audio(self, audio):
         if audio is None:
             return True
-        audio_base64 = await convert_uploadfile_to_base64(audio)
+        audio_base64 = convert_uploadfile_to_base64(audio)
         request = self.parse_audio_request(audio_base64)
         response = requests.post(url=self.audio_censor_url, json=request)
         if response.json()["message"] != "合规":
