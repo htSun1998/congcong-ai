@@ -1,5 +1,6 @@
 import requests
 from uuid import uuid1
+import itertools
 
 from utils.utils import convert_uploadfile_to_base64, find_values
 
@@ -39,7 +40,11 @@ class Censor:
         }
     
     def replace_keyword(self, censor_result: dict, content: str):
-        keywords = find_values(censor_result, "keyword")
+        keywords, keywords_copy = itertools.tee(find_values(censor_result, "keyword"), 2)
+        try:
+            next(iter(keywords_copy))
+        except:
+            return "*" * len(content)
         for keyword in keywords:
             content = content.replace(keyword, "*" * len(keyword))
         return content
