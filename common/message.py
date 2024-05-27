@@ -6,3 +6,7 @@ class DatasetRequest(BaseModel):
     page_size: int
     collection_id: str
     search_text: str = ""
+
+
+class WebRequest(BaseModel):
+    query: str
