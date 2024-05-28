@@ -21,6 +21,7 @@ async def lifespan(app: FastAPI):
     await FastAPILimiter.init(redis_connection)
     yield
 
+
 app = FastAPI(lifespan=lifespan)
 app.add_middleware(CORSMiddleware,
                    allow_origins=["*"],
@@ -31,10 +32,10 @@ app.add_middleware(CORSMiddleware,
 
 @app.post("/congcong/chat", dependencies=[Depends(RateLimiter(times=200, seconds=1))])
 def congcong_chat(chat_id: str = Form(...),
-                        stream: bool = Form(True),
-                        content: str = Form(None),
-                        file: UploadFile = File(None),
-                        audio: UploadFile = File(None)):
+                  stream: bool = Form(True),
+                  content: str = Form(None),
+                  file: UploadFile = File(None),
+                  audio: UploadFile = File(None)):
     future = executor.submit(execute_chat, chat_id, stream, content, file, audio)
     return future.result()
 

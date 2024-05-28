@@ -27,21 +27,30 @@ class Coze:
         }
         response = requests.post(
             url=self.url, json=data, headers=headers).json()
-        return self.parse_response(response)
+        return self.parse_response(response, query)
 
-    def parse_response(self, raw_response):
+    def parse_response(self, raw_response, query):
         data_list = []
-        res_json = json.loads(raw_response["messages"][2]["content"])
-        print(res_json)
-        for res in res_json:
-            res = res.split("\n")
-            data = {
+        try:  # 互联网搜索成功调用
+            res_json = json.loads(raw_response["messages"][2]["content"])
+            for res in res_json:
+                res = res.split("\n")
+                data = {
+                    "id": "",
+                    "datasetId": "",
+                    "collectionId": "",
+                    "sourceName": res[2],
+                    "q": res[0],
+                    "a": res[1]
+                }
+                data_list.append(data)
+            return data_list
+        except:  # 大模型直接回答
+            return [{
                 "id": "",
                 "datasetId": "",
                 "collectionId": "",
-                "sourceName": res[2],
-                "q": res[0],
-                "a": res[1]
-            }
-            data_list.append(data)
-        return data_list
+                "sourceName": "",
+                "q": query,
+                "a": raw_response["messages"][0]["content"]
+            }]
