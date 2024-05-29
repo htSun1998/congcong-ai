@@ -11,7 +11,7 @@ class FastGPT:
         request = self.parse_chat_request(chat_id, stream, content)
         response = requests.post(url=self.chat_url, json=request, headers=self.headers)
         return response
-    
+
     def chat_stream(self, chat_id, stream, content):
         request = self.parse_chat_request(chat_id, stream, content)
         response = requests.post(url=self.chat_url, json=request, headers=self.headers, stream=True)

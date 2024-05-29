@@ -1,5 +1,5 @@
 import uvicorn
-from fastapi import Depends, FastAPI, Form, UploadFile, File, HTTPException
+from fastapi import Depends, FastAPI, Form, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from loguru import logger
 
