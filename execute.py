@@ -19,7 +19,6 @@ coze = Coze()
 
 def execute_chat(chat_id, stream, content, file, audio):
     logger.info(f"{chat_id}")
-    logger.debug(f"{time.asctime()}")
 
     ##### 内容审核 #####
     # 语音审核
