@@ -1,6 +1,5 @@
 import base64
 from fastapi import UploadFile
-from sse_starlette import ServerSentEvent
 
 
 def convert_uploadfile_to_base64(file: UploadFile) -> str:
@@ -30,8 +29,3 @@ def find_values(json_input, key):
     elif isinstance(json_input, list):
         for item in json_input:
             yield from find_values(item, key)
-
-
-def str2stream(string_data: str):
-    for s in string_data:
-        yield ServerSentEvent(event="web", data=s)
