@@ -1,7 +1,6 @@
 import requests
 from sse_starlette import ServerSentEvent
 import json
-import asyncio
 from random import random
 import time
 
@@ -48,8 +47,8 @@ class FastGPT:
         web_result_list = json.loads(
             json.loads(web_result[5:])["choices"][0]["delta"]["content"])
         for web_result in web_result_list:
-            content = web_result["q"] + "\n" + web_result["sourceName"]
-            time.sleep(random() * 0.5)
+            content = web_result["q"] + "\n" + f"[复制链接]({web_result['sourceName'][5:]})"
+            time.sleep(random())
             yield ServerSentEvent(
                 event="web",
                 data={"id": "",
