@@ -9,8 +9,8 @@ from fastapi_limiter.depends import RateLimiter
 from fastapi_limiter import FastAPILimiter
 from contextlib import asynccontextmanager
 
-from common.message import DatasetRequest, WebRequest
-from execute import execute_chat, execute_dataset, execute_web
+from common.message import DatasetRequest, WebRequest, WeatherRequest
+from execute import execute_chat, execute_dataset, execute_web, execute_time, execute_weather
 
 
 executor = ThreadPoolExecutor(max_workers=200)
@@ -52,6 +52,18 @@ def congcong_web(request: WebRequest):
     return future.result()
 
 
+@app.get("/congcong/time")
+def congcong_time():
+    future = executor.submit(execute_time)
+    return future.result()
+
+
+@app.post("/congcong/weather")
+def congcong_weather(request: WeatherRequest):
+    future = executor.submit(execute_weather, request.city)
+    return future.result()
+
+
 if __name__ == "__main__":
     # 日志
     logger.add("logs/{time:YYYY-MM-DD}.log",
@@ -61,4 +73,4 @@ if __name__ == "__main__":
     # 启动
     uvicorn.run(app='app:app',
                 host="0.0.0.0",
-                port=3200)
+                port=3100)

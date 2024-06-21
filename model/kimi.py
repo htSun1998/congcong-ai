@@ -1,4 +1,5 @@
 import requests
+from loguru import logger
 
 
 class KIMI:
@@ -20,6 +21,9 @@ class KIMI:
     
     def upload_file(self, file):
         response = requests.post(url=self.upload_url, files={"file": (file.filename, file.file)})
+        logger.debug(f"文件上传结果：{response.json()}")
+        if not isinstance(response.json(), dict):  # 文件上传失败
+            return None
         return response.json()
     
     def parse_request(self, stream, content, file_id):

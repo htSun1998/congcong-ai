@@ -10,3 +10,7 @@ class DatasetRequest(BaseModel):
 
 class WebRequest(BaseModel):
     query: str
+
+
+class WeatherRequest(BaseModel):
+    city: str
