@@ -1,6 +1,7 @@
 import requests
 from uuid import uuid1
 import json
+from loguru import logger
 
 
 class Coze:
@@ -26,8 +27,12 @@ class Coze:
             "Connection": "keep-alive"
         }
         response = requests.post(
-            url=self.url, json=data, headers=headers).json()
-        return self.parse_response(response, query)
+            url=self.url, json=data, headers=headers)
+        time = response.elapsed.total_seconds()
+        logger.info(f"网络搜索时延：{str(time)}秒")
+        response = self.parse_response(response.json(), query)
+        logger.debug(f"coze网络搜索结果：{response}")
+        return response
 
     def parse_response(self, raw_response, query):
         data_list = []
