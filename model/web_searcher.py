@@ -10,7 +10,7 @@ class WebSearcher:
         }
 
     def search(self, q: str):
-        url = self.url.format(q)
+        url = self.url.format(q=q)
         response = requests.get(url, headers=self.headers)
         soup = BeautifulSoup(response.text, 'html.parser')
 

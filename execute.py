@@ -1,6 +1,5 @@
 from loguru import logger
 from sse_starlette.sse import EventSourceResponse
-import time
 from fastapi import HTTPException
 
 from model.fastgpt import FastGPT
@@ -8,6 +7,7 @@ from model.kimi import KIMI
 from model.whisper import Whisper
 from model.censor import Censor
 from model.coze import Coze
+from model.web_searcher import WebSearcher
 
 
 fastgpt = FastGPT()
@@ -15,6 +15,7 @@ kimi = KIMI()
 whisper = Whisper()
 censor = Censor()
 coze = Coze()
+web_seacher = WebSearcher()
 
 
 def execute_chat(chat_id, stream, content, file, audio):
@@ -68,5 +69,9 @@ def execute_dataset(request):
     return data_list
 
 
+# def execute_web(query):
+#     return coze.web_search(query)
+
+
 def execute_web(query):
-    return coze.web_search(query)
+    return web_seacher.search(query)
