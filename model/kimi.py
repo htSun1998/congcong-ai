@@ -1,11 +1,14 @@
 import requests
 from loguru import logger
+import yaml
 
 
 class KIMI:
     def __init__(self) -> None:
-        self.chat_url = "http://36.103.239.194:7869/v1/chat/completions"
-        self.upload_url = "http://36.103.239.194:7869/create"
+        with open('/data/projects/congcong-ai/config/config.yaml', 'r', encoding='utf-8') as f:
+            args = yaml.load(f.read(), Loader=yaml.FullLoader)["kimi"]
+        self.chat_url = args['chat_url']
+        self.upload_url = args['upload_url']
     
     def chat(self, stream, content, file_id):
         request = self.parse_request(stream, content, file_id)

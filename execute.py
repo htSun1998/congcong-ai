@@ -5,6 +5,7 @@ from datetime import datetime
 from lunardate import LunarDate
 import json
 import requests
+from phone import Phone
 
 from model.fastgpt import FastGPT
 from model.kimi import KIMI
@@ -104,7 +105,9 @@ def execute_time():
     }]
 
 
-def execute_weather(city):
+def execute_weather(city, phone):
+    if city == "":
+        city = Phone().find(phone)['city']
     url = 'http://t.weather.sojson.com/api/weather/city/'
     with open("/data/projects/congcong-ai/assets/city.json", "r") as f:
         city_dict: dict = json.load(f)

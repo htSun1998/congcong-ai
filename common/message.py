@@ -14,3 +14,4 @@ class WebRequest(BaseModel):
 
 class WeatherRequest(BaseModel):
     city: str
+    phone: str

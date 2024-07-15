@@ -1,14 +1,17 @@
 import requests
 from uuid import uuid1
 import itertools
+import yaml
 
 from utils.utils import convert_uploadfile_to_base64, find_values
 
 
 class Censor:
     def __init__(self) -> None:
-        self.text_censor_url = "http://121.229.188.97:30505/service/api/censor/text_censor/"
-        self.audio_censor_url = "http://121.229.188.97:30505/service/api/censor/audio_censor/"
+        with open('/data/projects/congcong-ai/config/config.yaml', 'r', encoding='utf-8') as f:
+            args = yaml.load(f.read(), Loader=yaml.FullLoader)["censor"]
+        self.text_censor_url = args['text_censor_url']
+        self.audio_censor_url = args['audio_censor_url']
     
     def censor_text(self, content: str):
         request = self.parse_text_request(content)

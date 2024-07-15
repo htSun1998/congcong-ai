@@ -1,5 +1,6 @@
 logs/
 assets/
+config/
 
 nohup.out
 *.pyc

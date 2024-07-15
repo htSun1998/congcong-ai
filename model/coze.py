@@ -2,14 +2,16 @@ import requests
 from uuid import uuid1
 import json
 from loguru import logger
+import yaml
 
 
 class Coze:
     def __init__(self) -> None:
-        self.url = "https://api.coze.cn/open_api/v2/chat"
-        self.api_key = "Bearer " + \
-            "pat_Jtwl4eB0WW3fCEkzw3Mlr3BPunm3Xfb0AxPVdXOyfWnL46KC81xaqPriYFxM0T1y"
-        self.bot_id = "7368304530351505446"
+        with open('/data/projects/congcong-ai/config/config.yaml', 'r', encoding='utf-8') as f:
+            args = yaml.load(f.read(), Loader=yaml.FullLoader)["coze"]
+        self.url = args['url']
+        self.api_key = "Bearer " + args['api_key']
+        self.bot_id = args['bot_id']
 
     def web_search(self, query):
         data = {

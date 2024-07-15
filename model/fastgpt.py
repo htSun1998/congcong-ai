@@ -3,14 +3,16 @@ from sse_starlette import ServerSentEvent
 import json
 from random import random
 import time
+import yaml
 
 
 class FastGPT:
     def __init__(self) -> None:
-        self.chat_url = "http://127.0.0.1:9600/api/v1/chat/completions"
-        self.dataset_url = "http://127.0.0.1:9600/api/core/dataset/data/list"
-        self.headers = {"Authorization": "Bearer " +
-                        "fastgpt-dIQ2JPppJT5T9tg7eF0tH1MhUsU8ygpN9ZCokMyMmWFuOPNlop9vJB4BcLBF1v"}
+        with open('/data/projects/congcong-ai/config/config.yaml', 'r', encoding='utf-8') as f:
+            args = yaml.load(f.read(), Loader=yaml.FullLoader)["fastgpt"]
+        self.chat_url = args['chat_url']
+        self.dataset_url = args['dataset_url']
+        self.headers = {"Authorization": "Bearer " + args['api_key']}
 
     def chat(self, chat_id, stream, content):
         request = self.parse_chat_request(

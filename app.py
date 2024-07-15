@@ -60,7 +60,7 @@ def congcong_time():
 
 @app.post("/congcong/weather")
 def congcong_weather(request: WeatherRequest):
-    future = executor.submit(execute_weather, request.city)
+    future = executor.submit(execute_weather, request.city, request.phone)
     return future.result()
 
 
