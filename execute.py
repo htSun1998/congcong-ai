@@ -14,6 +14,7 @@ from model.censor import Censor
 from model.coze import Coze
 
 from utils.constant import weekday_dict
+from utils.encryption_util import EncryptionUtil
 
 
 fastgpt = FastGPT()
@@ -21,6 +22,7 @@ kimi = KIMI()
 whisper = Whisper()
 censor = Censor()
 coze = Coze()
+encryption = EncryptionUtil()
 
 
 def execute_chat(chat_id, stream, content, file, audio):
@@ -129,3 +131,21 @@ def execute_weather(city, phone):
             "q": "天气信息",
             "a": result
         }]
+
+
+def execute_equity(phone):
+    # url = "https://hbgw.js118114.com/applet-web/equity/myEquity/initInfo"
+    url = "https://testhbsh.js118114.com:8443/applet-web-test/equity/myEquity/initInfo"
+    phone_encrypt = encryption.encrypt(phone)
+    params = {"phone": phone_encrypt}
+    res = requests.get(url=url, params=params).json()
+    if res['data']:
+        return [{
+            "id": "",
+            "datasetId": "",
+            "collectionId": "",
+            "sourceName": "",
+            "q": r['memberName'],
+            "a": f"可领取次数{r['count']}"
+        } for r in res['data']]
+    return []

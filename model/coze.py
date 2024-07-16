@@ -15,18 +15,18 @@ class Coze:
 
     def web_search(self, query):
         data = {
-            "conversation_id": str(uuid1()),
             "bot_id": self.bot_id,
-            "user": str(uuid1()),
-            "query": query,
+            "user_id": str(uuid1()),
+            "auto_save_history": True,
+            "additional_messages": [{
+                "role": "user",
+                "content": f"{query}",
+                "content_type": "text"}],
             "stream": False
         }
         headers = {
             "Authorization": self.api_key,
-            "Content-Type": "application/json",
-            "Accept": "*/*",
-            "Host": "api.coze.cn",
-            "Connection": "keep-alive"
+            "Content-Type": "application/json"
         }
         response = requests.post(
             url=self.url, json=data, headers=headers).json()
@@ -35,6 +35,7 @@ class Coze:
         return response
 
     def parse_response(self, raw_response, query):
+        logger.error(raw_response)
         data_list = []
         try:  # 互联网搜索成功调用
             res_json = json.loads(raw_response["messages"][2]["content"])

@@ -10,7 +10,7 @@ from fastapi_limiter import FastAPILimiter
 from contextlib import asynccontextmanager
 
 from common.message import DatasetRequest, WebRequest, WeatherRequest
-from execute import execute_chat, execute_dataset, execute_web, execute_time, execute_weather
+from execute import execute_chat, execute_dataset, execute_web, execute_time, execute_weather, execute_equity
 
 
 executor = ThreadPoolExecutor(max_workers=200)
@@ -61,6 +61,12 @@ def congcong_time():
 @app.post("/congcong/weather")
 def congcong_weather(request: WeatherRequest):
     future = executor.submit(execute_weather, request.city, request.phone)
+    return future.result()
+
+
+@app.get("/congcong/equity")
+def congcong_weather(phone: str):
+    future = executor.submit(execute_equity, phone)
     return future.result()
 
 
