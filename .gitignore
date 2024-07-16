@@ -3,3 +3,4 @@ assets/
 
 nohup.out
 *.pyc
+config
