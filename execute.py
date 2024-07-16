@@ -12,6 +12,7 @@ from model.kimi import KIMI
 from model.whisper import Whisper
 from model.censor import Censor
 from model.coze import Coze
+from model.web_searcher import WebSearcher
 
 from utils.constant import weekday_dict
 from utils.encryption_util import EncryptionUtil
@@ -23,6 +24,7 @@ whisper = Whisper()
 censor = Censor()
 coze = Coze()
 encryption = EncryptionUtil()
+web_searcher = WebSearcher()
 
 
 def execute_chat(chat_id, stream, content, file, audio):
@@ -82,7 +84,8 @@ def execute_dataset(request):
 
 
 def execute_web(query):
-    return coze.web_search(query)
+    # return coze.web_search(query)
+    return web_searcher.search(query)
 
 
 def execute_time():
