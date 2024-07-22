@@ -36,36 +36,42 @@ def congcong_chat(chat_id: str = Form(...),
                   content: str = Form(None),
                   file: UploadFile = File(None),
                   audio: UploadFile = File(None)):
+    """聊天接口"""
     future = executor.submit(execute_chat, chat_id, stream, content, file, audio)
     return future.result()
 
 
 @app.post("/congcong/dataset")
 def congcong_dataset(request: DatasetRequest):
+    """数据集查询"""
     future = executor.submit(execute_dataset, request)
     return future.result()
 
 
 @app.post("/congcong/web")
 def congcong_web(request: WebRequest):
+    """网络搜索"""
     future = executor.submit(execute_web, request.query)
     return future.result()
 
 
 @app.get("/congcong/time")
 def congcong_time():
+    """时间查询"""
     future = executor.submit(execute_time)
     return future.result()
 
 
 @app.post("/congcong/weather")
 def congcong_weather(request: WeatherRequest):
+    """天气查询"""
     future = executor.submit(execute_weather, request.city, request.phone)
     return future.result()
 
 
 @app.get("/congcong/equity")
 def congcong_weather(phone: str):
+    """权益查询"""
     future = executor.submit(execute_equity, phone)
     return future.result()
 
@@ -79,4 +85,4 @@ if __name__ == "__main__":
     # 启动
     uvicorn.run(app='app:app',
                 host="0.0.0.0",
-                port=3100)
+                port=3200)

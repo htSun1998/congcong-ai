@@ -13,7 +13,7 @@ from model.whisper import Whisper
 from model.censor import Censor
 from model.coze import Coze
 from model.web_searcher import WebSearcher
-
+from common.message import DatasetRequest
 from utils.constant import weekday_dict
 from utils.encryption_util import EncryptionUtil
 
@@ -75,12 +75,20 @@ def execute_chat(chat_id, stream, content, file, audio):
         return response.json()
 
 
-def execute_dataset(request):
-    response = fastgpt.dataset(request)
-    data_list = []
-    for data in response.json()["data"]["data"]:
-        data_list.append(data["q"])
-    return data_list
+def execute_dataset(request: DatasetRequest):
+    if request.type == "add":
+        return fastgpt.add_data(request.data)
+    elif request.type == "delete":
+        return fastgpt.delete_data(request.data)
+    elif request.type == "update":
+        return fastgpt.update_data(request.data)
+    else:
+        return HTTPException(status_code=501, detail="未定义操作")
+    # response = fastgpt.dataset(request)
+    # data_list = []
+    # for data in response.json()["data"]["data"]:
+    #     data_list.append(data["q"])
+    # return data_list
 
 
 def execute_web(query):
