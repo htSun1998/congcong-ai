@@ -4,6 +4,7 @@ import json
 from random import random
 import time
 import yaml
+from loguru import logger
 
 from common.message import Data, Response
 
@@ -33,6 +34,8 @@ class FastGPT:
         response = requests.post(
             url=self.chat_url, json=request, headers=self.headers, stream=True)
         stream_iterator = response.iter_lines(decode_unicode=True)
+        # for i in stream_iterator:
+        #     logger.debug(i)
         while True:
             item: str | None = next(stream_iterator, None)
             if item is None:  # 结束
@@ -101,7 +104,7 @@ class FastGPT:
                               ]})
         except:
             pass
-    
+
     def parse_chat_request(self, chat_id, stream, content, detail):
         return {
             "chatId": chat_id,
@@ -128,21 +131,27 @@ class FastGPT:
     #     }
 
     def get_all_data(self) -> list:
-        body = {
-            "pageNum": 1,
-            "pageSize": 30,
-            "collectionId": self.dataset_id,
-            "searchText": ""
-        }
-        res = requests.post(url=self.dataset_list_url,
-                            headers=self.headers,
-                            json=body).json()
-        return res["data"]["data"]
+        all_data = []
+        res = ["init"]
+        i = 0
+        while res:
+            i += 1
+            body = {
+                "pageNum": i,
+                "pageSize": 30,
+                "collectionId": self.dataset_id,
+                "searchText": ""
+            }
+            res = requests.post(url=self.dataset_list_url,
+                                headers=self.headers,
+                                json=body).json()["data"]["data"]
+            all_data += res
+        return all_data
 
     def check_exist(self, raw_d: Data, all_data) -> str | None:
         """检查是否存在，不存在返回空字符串，存在返回raw_d的id 和 知识库知识id"""
         for d in all_data:
-            if d['q'] == raw_d.title:
+            if eval(d['a'])['id'] == raw_d.id:
                 return raw_d.id, d['_id']  # 小程序知识id、知识库知识id
         return None, None
 
@@ -157,6 +166,7 @@ class FastGPT:
                 error_data.append(exist_id)
                 continue
             a = {
+                "id": raw_d.id,  # 唯一id
                 "pic": raw_d.pic,
                 "path": raw_d.path,
                 "title": raw_d.title,
@@ -165,7 +175,7 @@ class FastGPT:
             data.append({
                 "q": raw_d.title,
                 "a": str(a),
-                "indexes": [{"text": index} for index in raw_d.keyword.split(",")]
+                "indexes": [{"text": index} for index in raw_d.keyword.split(",")] if raw_d.keyword != "" else []
             })
         body = {
             "collectionId": self.dataset_id,
@@ -195,8 +205,8 @@ class FastGPT:
         for raw_d in raw_data:
             _, _id = self.check_exist(raw_d, all_data)
             res = requests.delete(url=self.dataset_delete_url,
-                                    headers=self.headers,
-                                    params={'id': _id}).json()
+                                  headers=self.headers,
+                                  params={'id': _id}).json()
             if res['code'] != 200:
                 error_data.append(raw_d.id)
         if error_data:
